@@ -7,6 +7,6 @@ def reverse_v1(st):
     return " ".join(rev)
     
 def reverse_v2(st):
-  return " ".join(st.split(" ")[::-1])
+    return " ".join(st.split(" ")[::-1])
   
 #to learn more about python list operations, http://www.diveintopython.net/native_data_types/lists.html
